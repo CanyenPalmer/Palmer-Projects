@@ -42,5 +42,4 @@ This website is designed with interactivity and smooth user experience in mind, 
 - Source controlled via [GitHub](https://github.com)
 - Versioning managed through `git`
 
-## File Structure
 

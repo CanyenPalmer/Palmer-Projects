@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-4">Blog</h1>
+<ul>
+    {% for post in posts %}
+    <li class="my-4">
+        <a href="/posts/{{ post.slug }}" class="text-blue-500 hover:underline">{{ post.slug.replace('-', ' ').title() }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
-<h1 class="text-3xl font-bold mb-4">Welcome to Palmer Projects</h1>
-<p class="text-lg">Data science projects, insights, and more.</p>
+<section class="text-center py-20">
+    <img src="/static/images/rangefinder.png" alt="Palmer Projects Logo" class="mx-auto w-20 mb-6">
+    <h1 class="text-5xl font-extrabold mb-4 text-blue-700">Palmer Projects</h1>
+    <p class="text-lg text-gray-600 mb-8">
+        Transforming complex data into practical solutions in healthcare, business, and beyond.
+    </p>
+    <div class="space-x-4">
+        <a href="/blog" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition">View Blog</a>
+        <a href="/about" class="border border-blue-600 text-blue-600 px-6 py-2 rounded-md hover:bg-blue-50 transition">About Me</a>
+        <a href="/contact" class="text-gray-600 hover:underline ml-4">Contact</a>
+    </div>
+</section>
 {% endblock %}

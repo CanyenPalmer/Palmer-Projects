@@ -1,0 +1,15 @@
+
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+.nav-link {
+    transition: all 0.3s ease;
+    padding: 0.5rem;
+}
+.nav-link:hover {
+    background-color: #e0f0ff;
+    border-radius: 0.25rem;
+}
+.nav-link:active {
+    background-color: #bcdfff;
+}
